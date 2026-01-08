@@ -9,7 +9,7 @@ import { TestimonialsDemo } from '@/components/testimonials-demo';
 export default function App() {
   return (
     <div className="relative min-h-screen font-sans antialiased text-foreground">
-      <ThemeToggle />
+
       {/* Background Shader */}
       <div className="fixed inset-0 z-[-1] ">
         <AnoAI />

@@ -4,7 +4,7 @@ import './globals.css'
 import { ThemeProvider } from '../context/ThemeContext';
 
 export const metadata: Metadata = {
-  title: 'Kevan Soon Portfolio',
+  title: 'Exypnos',
   description: 'Created with v0',
   generator: 'v0.dev',
 }

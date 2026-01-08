@@ -14,7 +14,7 @@ export function AcmeHero() {
           <nav className="flex items-center justify-between rounded-xl bg-background/50 backdrop-blur-md py-2 px-4 shadow-lg border border-border/50">
             <div className="flex items-center space-x-6">
               <a href="#" className="text-base font-semibold">
-                Acme
+                Exypnos
               </a>
               <div className="hidden md:flex items-center space-x-6">
                 <a
@@ -126,7 +126,7 @@ export function AcmeHero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2, duration: 0.5 }}
               >
-                Websites, Redefined
+                Workflows, Redefined
               </motion.h1>
               <motion.p
                 className="mx-auto max-w-xl text-md sm:text-2xl text-muted-foreground"
