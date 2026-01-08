@@ -28,34 +28,34 @@
 
   .dark {
     /* Background matches shader: vec3(0.02, 0.02, 0.08) ≈ #050514 */
-    --background: 240 50% 4%;
-    --foreground: 210 40% 98%;
-    
+    --background: 240 50% 4%; /* #050514 */
+    --foreground: 220 20% 96%; /* Softer white for less eye strain */
+
     /* Card with slight transparency for glass effect */
-    --card: 240 40% 6%;
-    --card-foreground: 210 40% 98%;
-    
-    --popover: 240 40% 6%;
-    --popover-foreground: 210 40% 98%;
-    
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-    
-    --secondary: 240 30% 12%;
-    --secondary-foreground: 210 40% 98%;
-    
-    --muted: 240 30% 12%;
-    --muted-foreground: 215 20.2% 65.1%;
-    
-    --accent: 240 30% 15%;
-    --accent-foreground: 210 40% 98%;
-    
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    
-    --border: 240 20% 18%;
-    --input: 240 20% 18%;
-    --ring: 212.7 26.8% 83.9%;
+    --card: 240 32% 10%; /* Slightly lighter for contrast */
+    --card-foreground: 220 20% 96%;
+
+    --popover: 240 32% 10%;
+    --popover-foreground: 220 20% 96%;
+
+    --primary: 260 83% 66%; /* Vibrant blue */
+    --primary-foreground: 220 20% 96%;
+
+    --secondary: 240 16% 18%; /* Muted dark */
+    --secondary-foreground: 220 20% 96%;
+
+    --muted: 240 16% 18%;
+    --muted-foreground: 220 10% 60%;
+
+    --accent: 291 64% 42%; /* Purple accent */
+    --accent-foreground: 220 20% 96%;
+
+    --destructive: 0 72% 51%; /* Red */
+    --destructive-foreground: 220 20% 96%;
+
+    --border: 240 12% 22%;
+    --input: 240 12% 22%;
+    --ring: 260 83% 66%;
   }
 
   * {

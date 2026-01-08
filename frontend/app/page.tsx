@@ -1,5 +1,6 @@
 "use client"
 import { AcmeHero } from '@/components/ui/acme-hero';
+import { ThemeToggle } from '../components/ThemeToggle';
 import AnoAI from '@/components/ui/animated-shader-background';
 import { GlowingEffectDemo } from '@/components/glowing-effect-demo';
 import { Feature108Demo } from '@/components/feature108-demo';
@@ -8,6 +9,7 @@ import { TestimonialsDemo } from '@/components/testimonials-demo';
 export default function App() {
   return (
     <div className="relative min-h-screen font-sans antialiased text-foreground">
+      <ThemeToggle />
       {/* Background Shader */}
       <div className="fixed inset-0 z-[-1] ">
         <AnoAI />
