@@ -10,6 +10,8 @@ dependencies = [
     "langchain-ollama>=1.0.1",
     "langgraph>=1.0.5",
     "langgraph-checkpoint-postgres>=3.0.2",
+    "psycopg-pool>=3.3.0",
     "psycopg2-binary>=2.9.11",
+    "psycopg[binary]>=3.3.2",
     "python-dotenv>=1.2.1",
 ]
